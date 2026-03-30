@@ -1,0 +1,2720 @@
+/* Homepage */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.homepage, .welcomepage {
+    position: relative;
+    width: 100%;
+    /* height: 110vh; */
+    /* width: 1920px; */
+    /* height: 2283px; */
+    background: #0D0D14;
+}
+
+.registerpage, .loginpage, .successpage, .aboutuspage, .albumpage, .musicpage, .reviewspage, .listspage, .profilepage, .searchpage, .albumspage{
+    position: relative;
+    width: 100%;
+    /* height: 110vh; */
+    /* width: 1920px; */
+    /* height: 1080px; */
+    background: #0D0D14;
+}
+
+/* Nav bar */
+.navbar {
+    display: flex;
+    background: rgba(45, 45, 46, 0.26);
+    height: 88px;
+    width: 100%;
+    padding: 0px;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Search bar */
+.searchbar input[type="text"]{ 
+    position: absolute;
+    width: 652px;
+    height: 54px;
+    left: 215px;
+    top: 17px;
+
+    background: rgba(26, 26, 40, 0.57);
+    border-radius: 20px;
+    border-width: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-indent: 15px;
+
+    color: #D9D9D9;
+}
+
+input:focus, input:active {
+    outline: unset !important;
+    border: unset !important;
+}
+
+/* Logo 1 */
+.logo .ellipse1{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 27px;
+    top: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    background: #000000;
+}
+
+/* Logo 2 */
+.logo .ellipse2 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 33px;
+    left: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    background: #F1F46B;
+}
+
+/* Logo 3 */
+.logo .ellipse3 {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    left: 48px;
+    top: 43px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    background: #D9D9D9;
+}
+
+/* FTR Text*/
+.logo .text {
+    position: absolute;
+    width: 166px;
+    height: 60px;
+    left: 49px;
+    top: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+/* Navigation buttons */
+.options {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    list-style: none;
+}
+
+.options a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Music */
+.options .music{
+    position: absolute;
+    width: 152px;
+    height: 39px;
+    left: 867px;
+    top: 27px;
+    text-decoration: none;
+}
+
+/* Reviews */
+.options .reviews {
+    position: absolute;
+    width: 152px;
+    height: 39px;
+    left: 1019px;
+    top: 27px;
+}
+
+/* Lists */
+.options .lists {
+    position: absolute;
+    width: 152px;
+    height: 39px;
+    left: 1171px;
+    top: 27px;
+}
+
+/* Discussion */
+.options .aboutus {
+    position: absolute;
+    width: 170px;
+    height: 39px;
+    left: 1323px;
+    top: 27px;
+}
+
+/* Login */
+.navbar .login .button {
+    position: absolute;
+    width: 130px;
+    height: 46px;
+    left: 1697px;
+    top: 21px;
+
+    background: #F1F46B;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .login .text {
+    position: absolute;
+    width: 152px;
+    height: 39px;
+    left: 1686px;
+    top: 25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.navbar .logout .button {
+    position: absolute;
+    width: 130px;
+    height: 46px;
+    left: 1597px;
+    top: 21px;
+
+    background: #F1F46B;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .logout .text {
+    position: absolute;
+    width: 152px;
+    height: 39px;
+    left: 1586px;
+    top: 25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.navbar .profile .pfp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 19px;
+    left: 1800px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Welcome to For The Record! */
+.welcome {
+    position: absolute;
+    width: 776px;
+    height: 534px;
+    left: 64px;
+    top: 168px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 192px;
+
+    color: #FFFFFF;
+}
+
+.welcome .ftr {
+    color: #F1F46B;
+}
+
+
+/* Album covers */
+.intro .covers li {
+    list-style: none;
+}
+
+.covers .dangerouslyinlove img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1014px;
+    top: 426px;
+}
+
+.covers .post img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1104px;
+    top: 426px;
+
+    opacity: 0.88;
+}
+
+.covers .agaetisbyrjun img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1181px;
+    top: 426px;
+
+    opacity: 0.8;
+}
+
+.covers .liftyrskinnyfists img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1271px;
+    top: 426px;
+
+    opacity: 0.7;
+}
+
+.covers .abbeyroad img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1361px;
+    top: 426px;
+
+    opacity: 0.6;
+}
+
+.covers .thatfeelsgood img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1451px;
+    top: 426px;
+
+    opacity: 0.5;
+}
+
+.covers .inrainbows img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1551px;
+    top: 426px;
+
+    opacity: 0.4;
+}
+
+.covers .topimpabutterfly img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1641px;
+    top: 426px;
+
+    opacity: 0.3;
+}
+
+/* Slogan */
+.intro .motto {
+    position: absolute;
+    width: 920px;
+    height: 123px;
+    left: 943px;
+    top: 627px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Register */
+.createaccount .button {
+    position: absolute;
+    width: 821px;
+    height: 135px;
+    left: 992px;
+    top: 846px;
+    cursor: pointer;
+
+    background: #F1F46B;
+    border-radius: 18px;
+    
+}
+
+.createaccount .text {
+    position: absolute;
+    width: 501px;
+    height: 54px;
+    left: 1153px;
+    top: 883px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.createacc .account .text {
+    position: absolute;
+    width: 501px;
+    height: 54px;
+    left: 1153px;
+    top: 883px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.createacc .register .text {
+    cursor: pointer;
+}
+
+.create .account {
+    position: absolute;
+    flex-shrink: 0;
+    width: 762px;
+    height: 838px;
+    top: 136px;
+    left: 101px;
+    border-radius: 15px;
+
+    background: #15151B;
+}
+
+.create .account .text {
+    position: absolute;
+    width: 731px;
+    height: 90px;
+    left: 23px;
+    top: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 78px;
+    text-indent: 27px;
+
+    color: #FFFFFF;
+}
+
+.account input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.account .username input {
+    position: absolute;
+    width: 658px;
+    height: 46px;
+    left: 31px;
+    top: 172px;
+
+    background: #D9D9D9;
+
+    border-radius: 4px;
+    border-style: none;
+}
+
+.account .username label {
+    position: absolute;
+    width: 306px;
+    height: 34px;
+    left: 33px;
+    top: 138px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.account .email input {
+    position: absolute;
+    width: 658px;
+    height: 46px;
+    left: 31px;
+    top: 294px;
+
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.account .email label {
+    position: absolute;
+    width: 654px;
+    height: 34px;
+    left: 35px;
+    top: 260px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.account .password input {
+    position: absolute;
+    width: 658px;
+    height: 46px;
+    left: 31px;
+    top: 416px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.account .password label {
+    position: absolute;
+    width: 654px;
+    height: 34px;
+    left: 35px;
+    top: 382px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.account .confpassword input {
+    position: absolute;
+    width: 658px;
+    height: 46px;
+    left: 33px;
+    top: 538px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.account .confpassword label {
+    position: absolute;
+    width: 654px;
+    height: 34px;
+    left: 37px;
+    top: 504px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build {
+    position: absolute;
+    width: 922px;
+    height: 838px;
+    left: 904px;
+    top: 136px;
+
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.build .text {
+    position: absolute;
+    width: 731px;
+    height: 90px;
+    left: 50px;
+    top: 23px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 78px;
+    text-indent: 23px;
+    
+    color: #FFFFFF;
+}
+
+.build input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.build .pfp label {
+    position: absolute;
+    width: 306px;
+    height: 34px;
+    left: 110px;
+    top: 138px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .pfp input[id="avatar1"] {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 103px;
+    top: 167px;
+
+    appearance: none;
+    background: url('../images/avatar1.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* background: #d9d9d9; */
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+
+.build .pfp input[id="avatar2"] {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 219.5px;
+    top: 167px;
+
+    appearance: none;
+    background: url('../images/avatar2.jpg') no-repeat center center;
+    background-size: cover;
+
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+
+.build .pfp input[id="avatar3"] {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 336px;
+    top: 167px;
+
+    appearance: none;
+    background: url('../images/avatar3.jpg') no-repeat center center;
+    background-size: cover;
+
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+}
+
+.build .displayname label {
+    position: absolute;
+    width: 306px;
+    height: 34px;
+    left: 462px;
+    top: 137px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .displayname input {
+    position: absolute;
+    width: 308px;
+    height: 46px;
+    left: 460px;
+    top: 172px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.build .gender label {
+    position: absolute;
+    width: 304px;
+    height: 34px;
+    left: 112px;
+    top: 260px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .gender select {
+    position: absolute;
+    width: 308px;
+    height: 46px;
+    left: 108px;
+    top: 294px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+select:focus, select:active {
+    outline: unset !important;
+    border: unset !important;
+}
+
+.build .bio label {
+    position: absolute;
+    width: 306px;
+    height: 33px;
+    left: 462px;
+    top: 260px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .bio textarea {
+    position: absolute;
+    width: 308px;
+    height: 151px;
+    left: 460px;
+    top: 293px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+textarea:focus, textarea:active {
+    outline: unset !important;
+    border: unset !important;
+}
+
+.build .dob label {
+    position: absolute;
+    width: 304px;
+    height: 34px;
+    left: 111px;
+    top: 365px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .dob input {
+    position: absolute;
+    width: 308px;
+    height: 46px;
+    left: 108px;
+    top: 398px;
+
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.build .tandc label {
+    position: absolute;
+    width: 587px;
+    height: 30px;
+    left: 125px;
+    top: 546px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.build .tandc input {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 99px;
+    top: 546px;
+}
+
+.build .register .button {
+    position: absolute;
+    width: 549px;
+    height: 98px;
+    left: 164px;
+    top: 635px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+    text-align: center;
+    cursor: pointer;
+    
+    background: #F1F46B;
+    border-radius: 18px;
+    border: none;
+}
+
+.build .register .text {
+    position: absolute;
+    width: 228px;
+    height: 42px;
+    left: 325px;
+    top: 662px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 42px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #000000;
+}
+
+.loginbox {
+    position: absolute;
+    width: 762px;
+    height: 838px;
+    left: 579px;
+    top: 148px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.loginbox .text {
+    position: absolute;
+    width: 731px;
+    height: 90px;
+    left: 17px;
+    top: 47px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 78px;
+    text-indent: 35px;
+    
+    color: #FFFFFF;
+}
+
+.loginbox input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #000000;  
+}
+
+.loginbox .username label {
+    position: absolute;
+    width: 698px;
+    height: 49px;
+    left: 34px;
+    top: 196px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;    
+}
+
+.loginbox .username input {
+    position: absolute;
+    width: 702px;
+    height: 67px;
+    left: 30px;
+    top: 245px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.loginbox .password label {
+    position: absolute;
+    width: 698px;
+    height: 49px;
+    left: 34px;
+    top: 373px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.loginbox .password input {
+    position: absolute;
+    width: 702px;
+    height: 67px;
+    left: 30px;
+    top: 422px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.loginbox .signup {
+    position: absolute;
+    width: 251px;
+    height: 37px;
+    left: 30px;
+    top: 538px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    
+    color: #FFFFFF;
+}
+
+.loginbox .confirm input {
+    position: absolute;
+    width: 281px;
+    height: 94px;
+    left: 240px;
+    top: 625px;
+    
+    background: #F1F46B;
+    border-radius: 10px;  
+    cursor: pointer;
+    outline: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    text-indent: -10px;
+    cursor: pointer;
+    
+    color: #0D0D14;
+}
+
+.loginmessage {
+    position: absolute;
+    width: 251px;
+    height: 37px;
+    left: 30px;
+    top: 585px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    
+    color: red;
+}
+
+.registermessage {
+    position: absolute;
+    width: 500px;
+    height: 37px;
+    left: 102px;
+    top: 577px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: red;
+}
+
+.message {
+    position: absolute;
+    width: 762px;
+    height: 838px;
+    left: 579px;
+    top: 148px;
+    display: flex;
+    
+    background: #15151B;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.message .text1 {
+    position: absolute;
+    width: 743px;
+    height: 216px;
+    left: 9px;
+    top: 136px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.message .text2 {
+    position: absolute;
+    width: 743px;
+    height: 217px;
+    left: 9px;
+    top: 352px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    align-content: flex-end;
+    
+    color: #FFFFFF;
+}
+
+.message .login .button {
+    position: absolute;
+    width: 403px;
+    height: 108px;
+    left: 179px;
+    top: 630px;
+    
+    background: #F1F46B;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.message .login .text {
+    position: absolute;
+    width: 326px;
+    height: 62px;
+    left: 218px;
+    top: 645px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    cursor: pointer;
+    
+    color: #000000;
+}
+
+.welcome2 {
+    position: absolute;
+    width: 1795px;
+    height: 191px;
+    left: 62px;
+    top: 305px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 192px;
+
+    color: #FFFFFF;
+}
+
+.welcome2 .ftr {
+    color: #F1F46B;
+}
+
+.logo2 .ellipse11 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 860px;
+    top: 547px;
+    
+    border-radius: 50%;
+    background: #000000;
+}
+
+.logo2 .ellipse22 {
+    position: absolute;
+    width: 100px;
+    height: 102px;
+    left: 910px;
+    top: 596px;
+    
+    border-radius: 50%;
+    background: #F1F46B;
+}
+
+.logo2 .ellipse33 {
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    left: 954px;
+    top: 639px;
+
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+
+.text1 {
+    position: absolute;
+    width: 884px;
+    height: 183px;
+    left: 518px;
+    top: 799px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.text2 {
+    position: absolute;
+    width: 374px;
+    height: 100px;
+    left: 767px;
+    top: 1007px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.aboutuscontent .info{
+    position: absolute;
+    width: 898px;
+    height: 594px;
+    top: 164px;
+    left: 89px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+
+    color: #FFFFFF;
+}
+
+.aboutuscontent .download{
+    position: absolute;
+    width: 606px;
+    height: 204px;
+    left: 1190px;
+    top: 284px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.aboutuscontent button{
+    width: 415px;
+    height: 139px;
+
+    background: #F1F46B;
+    border-radius: 12px;
+    border: none;
+}
+
+.aboutuscontent a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    color: #000000;
+}
+
+.aboutuscontent .tags a {
+    color: #F1F46B;
+}
+
+/* ALBUM PAGE */
+
+.albumpage .albumphoto{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 72px;
+    top: 149px;
+    
+    background-image: url(../covers/mezzanine.jpg);
+    background-size: cover;
+}
+
+.albumpage .albumname {
+    position: absolute;
+    width: 755px;
+    height: 64px;
+    left: 504px;
+    top: 149px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .albuminfo {
+    position: absolute;
+    width: 806px;
+    height: 447px;
+    left: 504px;
+    top: 275px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.albumpage .albuminfo .artistname {
+    position: absolute;
+    width: 134px;
+    height: 42px;
+    left: 40px;
+    top: 49px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.albumpage .albuminfo .releasedate {
+    position: absolute;
+    width: 198px;
+    height: 42px;
+    left: 40px;
+    top: 120px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .albuminfo .genre {
+    position: absolute;
+    width: 104px;
+    height: 41px;
+    left: 40px;
+    top: 191px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .albuminfo .inputartistname {
+    position: absolute;
+    width: 295px;
+    height: 33px;
+    left: 283px;
+    top: 45px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-wrap: nowrap;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .albuminfo .inputreleasedate {
+    position: absolute;
+    width: 202px;
+    height: 28px;
+    left: 283px;
+    top: 116px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;    
+}
+
+.albumpage .albuminfo .inputgenre {
+    position: absolute;
+    min-width: 400px;
+    height: 35px;
+    left: 283px;
+    top: 182px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .rating {
+    position: absolute;
+    width: 500px;
+    height: 447px;
+    left: 1342px;
+    top: 275px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.albumpage .rating .rate {
+    position: absolute;
+    width: 305px;
+    height: 54px;
+    left: 18px;
+    top: 28px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.albumpage .rating .stars {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 483px;
+    height: auto;
+}
+
+.albumpage .rating .star-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    
+    margin-bottom: 40px;
+}
+
+.albumpage .rating .star {
+    position: relative;
+    display: flex;
+    width: 75px;
+    height: 32px;
+    left: 18px;
+    top: 104px;
+    margin-right: 24px;
+
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    color: #000000;
+    
+    background: #F1F46B;
+    border-radius: 10px;
+    border: none;
+}
+
+.albumpage .rating .starimage {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 140px;
+    top: 265px;
+    
+    background-size: cover;
+    background: #D9D9D9;
+}
+
+.albumpage .rating .favourite {
+    position: absolute;
+    width: 250px;
+    height: 64px;
+    left: 125px;
+    top: 329px;
+    
+    background: #F1F46B;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+
+    color: #000000;
+    border: none;   
+}
+
+.albumpage .review {
+    position: absolute;
+    width: 1338px;
+    height: 303px;
+    left: 504px;
+    top: 771px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.albumpage .review .intro {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 24px;
+    top: 22px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+
+.albumpage .review .reviewtext {
+    position: absolute;
+    width: 1168px;
+    height: 228px;
+    left: 154px;
+    top: 32px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #0D0D14;
+    border: none;
+    
+    color: #FFFFFF;
+}
+
+.albumpage input[type="submit"] {
+    position: absolute;
+    width: 231px;
+    height: 74px;
+    left: 528px;
+    top: 604px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+
+    background: #F1F46B;
+    border-radius: 12px;
+    border: none;
+}
+
+.albumpage .errortext {
+    position: absolute;
+    width: 231px;
+    height: 74px;
+    left: 528px;
+    top: 544px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+
+    color: red;
+}
+
+textarea:focus, textarea:active {
+    outline: unset !important;
+    border: unset !important;
+}
+
+/* REVIEWS PAGE */
+.reviewspage .reviewbox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1079px;
+    height: auto;
+    left: 48px;
+    top: 114px;
+    padding-bottom: 40px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.reviewspage .reviewinstance {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewspage .reviewbox .reviewsyoumightlike{
+    position: absolute;
+    display: flex;
+    width: 422px;
+    height: 95px;
+    left: 24px;
+    top: 27px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .reviewbox .albumphoto{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    left: 48px;
+    top: 112px;
+
+    background: #D9D9D9;
+}
+
+.reviewspage .reviewbox .albumname{
+    position: absolute;
+    display: flex;
+    width: 294px;
+    height: 77px;
+    left: 290px;
+    top: 112px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-wrap: nowrap;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .reviewbox .inputartistname {
+    position: absolute;
+    display: flex;
+    width: 228px;
+    height: 66px;
+    left: 290px;
+    top: 152px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-wrap: nowrap;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .reviewbox .username {
+    position: absolute;
+    display: flex;
+    width: 188px;
+    height: 37px;
+    left: 290px;
+    top: 253px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-wrap: nowrap;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .reviewbox .rating{
+    position: absolute;
+    display: flex;
+    width: 98px;
+    height: 32px;
+    left: 932px;
+    top: 112px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .reviewbox .showreview{
+    position: relative;
+    display: flex;
+    width: 767px;
+    height: 359px;
+    left: 290px;
+    top: 290px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.reviewspage .findalbum{
+    position: absolute;
+    width: 635px;
+    height: 418px;
+    left: 1206px;
+    top: 332px;
+
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.reviewspage .wantrate{
+    position: absolute;
+    width: 555px;
+    height: 153px;
+    left: 40px;
+    top: 45px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.reviewspage button{
+    position: absolute;
+    width: 231px;
+    height: 74px;
+    left: 202px;
+    top: 239px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+
+    background: #F1F46B;
+    border-radius: 12px;
+}
+
+
+/* LIST PAGE */
+
+.listspage .lists_box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1191px;
+    height: auto;
+    left: 132px;
+    top: 29px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.listspage .freshlists {
+    position: relative;
+    width: 593px;
+    height: 95px;
+    left: 24px;
+    top: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .list-instance {
+    display: flex;
+    position: relative;
+    margin-bottom: 320px;
+}
+
+.listspage .list-instance .albums {
+    position: relative;
+    display: flex;
+    left: 43px;
+    margin-bottom: 22px;
+}
+
+.listspage .list-instance .albumphoto {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-right: 26px;
+    
+    /* background: #D9D9D9; */
+}
+
+.listspage .list-instance .listname {
+    display: block;
+    position: absolute;
+    width: fit-content;
+    min-width: 174px;
+    height: 35px;
+    top: 222px;
+    left: 43px;
+    
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    
+    color: #FFFFFF;
+}
+
+.listspage .list-instance .username {
+    position: absolute;
+    width: fit-content;
+    height: 35px;
+    left: 43px;
+    top: 257px;
+    
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .list-instance .listdescription {
+    position: absolute;
+    width: fit-content;
+    height: 132px;
+    left: 43px;
+    top: 307px;
+    
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 375;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .createlists {
+    position: absolute;
+    width: 470px;
+    height: 461px;
+    left: 1357px;
+    top: 117px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.listspage .createlists .createtext {
+    position: absolute;
+    width: 330px;
+    height: 47px;
+    left: 21px;
+    top: 13px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .createlists .listname {
+    position: absolute;
+    width: 134px;
+    height: 28px;
+    left: 21px;
+    top: 82px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .createlists .listname input {
+    position: absolute;
+    width: 330px;
+    height: 46px;
+    left: 0px;
+    top: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.listspage .createlists .listname input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.listspage .createlists .listdescription {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    left: 21px;
+    top: 200px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .createlists .listdescription textarea {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    position: absolute;
+    width: 424px;
+    height: 198px;
+    left: 0px;
+    top: 38px;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    
+    color: #000000;
+    outline: none;
+    border: none;
+}
+
+.listspage .choosealbums {
+    position: absolute;
+    width: 466px;
+    height: 741px;
+    left: 1361px;
+    top: 647px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.listspage .choosealbums .choosetext {
+    position: absolute;
+    width: 327px;
+    height: 47px;
+    left: 36px;
+    top: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .choosealbums .albumchoices {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 19px;
+
+    margin-bottom: 76px;   
+}
+
+.listspage .choosealbums .albumchoice label {
+    position: relative;
+    display: flex;
+    width: 132px;
+    height: 28px;
+    left: 36px;
+    top: 86px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.listspage .choosealbums .albumchoice select {
+    position: relative;
+    display: block;
+    width: 327px;
+    height: 46px;
+    left: 36px;
+    top: 94px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+    
+    background: #D9D9D9;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 22px;
+}
+
+.listspage .choosealbums .createlist {
+    position: absolute;
+    width: 198px;
+    height: 64px;
+    left: 36px;
+    top: 631px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+    
+    background: #F1F46B;
+    border-radius: 10px;
+}
+
+input:focus, input:active {
+    outline: unset !important;
+    border: unset !important;
+}
+
+
+/* MUSIC PAGE */
+.musicpage .popularbox{
+    position: absolute;
+    width: 1824px;
+    height: 521px;
+    left: 48px;
+    top: 114px;
+
+    background: #15151B;
+    border-radius: 10px;
+}
+
+.musicpage .popularbox .popularthisweek{
+    position: absolute;
+    width: 393px;
+    height: 95px;
+    left: 24px;
+    top: 32px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.musicpage .popularbox {
+    display: flex;
+    position: absolute;
+}
+
+.musicpage .albums {
+    display: flex;
+    width: auto;
+    height: 105px;
+}
+
+.musicpage .albuminfo {
+    flex: 1;
+    max-width: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.musicpage .popularbox .albumphoto {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 111px;
+    top: 127px;
+
+    background: #D9D9D9;
+}
+
+.musicpage .albumname {
+    position: absolute;
+    display: flex;
+    width: 316px;
+    height: 42px;
+    left: 54px;
+    top: 349px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    justify-content: center;
+    
+    color: #FFFFFF;
+}
+
+.musicpage .artistname {
+    position: absolute;
+    display: flex;
+    width: 207px;
+    height: 41px;
+    left: 108px;
+    top: 390px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    
+    color: #FFFFFF;
+}
+
+.musicpage .recentbox{
+    position: absolute;
+    width: 1824px;
+    height: 521px;
+    left: 48px;
+    top: 699px;
+
+    background: #15151B;
+    border-radius: 10px;
+}
+
+.musicpage .recentbox .recentlyadded {
+    position: absolute;
+    width: 393px;
+    height: 95px;
+    left: 24px;
+    top: 32px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    
+    color: #FFFFFF;
+}
+
+.musicpage .recentbox .seeall {
+    position: absolute;
+    width: 257px;
+    height: 65px;
+    left: 1512px;
+    top: 32px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+
+/* PROFILE PAGE */
+.profilepage .avatar {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 157px;
+    top: 140px;
+    
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.profilepage .profileinfo .name {
+    position: absolute;
+    width: 274px;
+    height: 63px;
+    left: 380px;
+    top: 171px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #F1F46B;
+}
+
+.profilepage .bio {
+    position: absolute;
+    width: 574px;
+    height: 59px;
+    left: 380px;
+    top: 248px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .myreviews{
+    position: absolute;
+    width: 996px;
+    height: 416px;
+    left: 50px;
+    top: 385px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.profilepage .mylists{
+    position: absolute;
+    width: 1123px;
+    height: 701px;
+    left: 48px;
+    top: 928px;
+    
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.profilepage .favouritealbum .text {
+    position: absolute;
+    width: 678px;
+    height: 51px;
+    left: 1163px;
+    top: 194px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.profilepage .favouritealbum .cover{
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    left: 1192px;
+    top: 274px;
+    
+    background: #D9D9D9;
+}
+
+.profilepage .favouritealbum .name {
+    position: absolute;
+    width: 392px;
+    height: 53px;
+    left: 1306px;
+    top: 929px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .favouritealbum .artist {
+    position: absolute;
+    width: 192px;
+    height: 44px;
+    left: 1406px;
+    top: 982px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .myreviews .text {
+    position: absolute;
+    width: 442px;
+    height: 49px;
+    left: 33px;
+    top: 29px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .myreviews .reviews {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.profilepage .myreviews .review {
+    position: relative;
+    display: flex;
+    margin-right: 74px
+}
+
+.profilepage .review .cover {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    left: 128px;
+    top: 103px;
+    
+    background: #D9D9D9;
+}
+
+.profilepage .review .rating {
+    position: absolute;
+    width: 158px;
+    height: 42px;
+    left: 158px;
+    top: 325px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .myreviews .seeall {
+    position: absolute;
+    width: 124px;
+    height: 44px;
+    left: 836px;
+    top: 34px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .mylists .text{
+    position: absolute;
+    width: 442px;
+    height: 49px;
+    left: 39px;
+    top: 29px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .mylists .lists {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.profilepage .mylists .list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 98px;
+}
+
+.profilepage .mylists .cover {
+    position: relative;
+    display: flex;
+    width: 190px;
+    height: 190px;
+    left: 45px;
+    top: 96px;
+    margin-right: 21px;
+    
+    background: #D9D9D9;
+}
+
+.profilepage .mylists .listname {
+    position: absolute;
+    width: fit-content;
+    height: 35px;
+    left: 39px;
+    top: 304px;
+    
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+}
+
+.profilepage .mylists .seeall {
+    position: absolute;
+    width: 124px;
+    height: 44px;
+    left: 967px;
+    top: 34px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    
+    color: #FFFFFF;
+}
+
+.searchpage .searchtext {
+    position: absolute;
+    width: fit-content;
+    height: 107px;
+    left: 132px;
+    top: 158px;
+    
+    text-wrap: nowrap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 78px;
+    
+    color: #FFFFFF;
+}
+
+.searchpage .searches {
+    position: absolute;
+    width: 1271px;
+    height: auto;
+    left: 61px;
+    top: 265px;
+}
+
+.searchpage .searches .result {
+    position: relative;
+    width: 897px;
+    height: 170px;
+    left: 37px;
+    top: 35px;
+    margin-bottom: 75px;
+
+    background: #15151B;
+    border-radius: 15px;
+}
+
+.searchpage .searches .cover {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 25px;
+    
+    background: #D9D9D9;
+}
+
+.searchpage .searches .name {
+    position: absolute;
+    width: 781px;
+    height: 48px;
+    left: 199px;
+    top: 40px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    
+    color: #FFFFFF;
+}
+
+.searchpage .searches .artist {
+    position: absolute;
+    width: 835px;
+    height: 34px;
+    left: 199px;
+    top: 100px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #FFFFFF;
+}
+
+.albumspage .albums {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 1700px;
+    min-height: min-content;
+    left: 72px;
+    top: 159px;
+    padding-bottom: 65px;
+    
+    background: #15151B;
+    border-radius: 15px;   
+}
+
+.albumspage .recentlyadded {
+    position: absolute;
+    width: 590px;
+    height: 77px;
+    left: 50px;
+    top: 50px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    
+    color: #FFFFFF;
+}
+
+.albumspage .albumrow {
+    display: flex;
+    position: relative;
+    left: 85px;
+    top: 140px;
+
+    margin-bottom: 55px;
+}
+
+.albumspage .album {
+    width: 200px;
+    margin-right: 125px;
+    position: relative;
+}
+
+.albumspage .albumrow .albumphoto {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    cursor: pointer;
+    background-size: cover;
+    margin-right: 125px;
+}
+
+.albumspage .albumrow .albumname {
+    position: relative;
+    width: 274px;
+    height: 72px;
+    left: -37px;
+    top: 14px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    color: #FFFFFF;
+}
+
+.albumspage .albumrow .artistname {
+    position: relative;
+    width: 274px;
+    height: 72px;
+    left: -37px;
+    top: -15px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 54px;
+    text-align: center;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    color: #FFFFFF;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+    height: 200px;
+
+    background: #0D0D14;
+}
