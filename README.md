@@ -1,4 +1,4 @@
 # For the Record
-For the Record is a project made in collaboration with @ddeliaffelia for our Introduction to Web Programming course.<br>
-Made with XAMPP, by activating Apache and MySQL. The database scheme is in this repo under for_the_record_.sql, it only contains the albums that we added as tests.<br>
-It's a music rating website, kind of like Letterboxd but for music.<br>
+For the Record is a HTML/CSS project made by Vlad Preda and Alexa Drăgan for the Introduction to Web Programming course, during the first year of studying at UNSTPB. Its purpose is to be used for logging and rating music releases, the concept being similar to currently existing applications and/or websites, such as [AlbumOfTheYear](https://www.albumoftheyear.org) or [Letterboxd](https://letterboxd.com). <br>
+This project runs with XAMPP, by activating Apache and MySQL. The database scheme can be found in this repository under for_the_record_.sql, and it only contains the albums that we added as tests.<br>
+
